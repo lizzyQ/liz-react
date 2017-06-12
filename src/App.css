@@ -1,0 +1,91 @@
+.App {
+  background: #010818;
+  color:rgb(173,213,249);
+}
+
+/*====================================================================== 
+           LANDSCAPE MODE 
+=======================================================================*/
+/* =========LEFT CLICK ========= */
+@keyframes slideInRight {
+  from{ transform: scale(0.8) translateX(-20em); }
+  to{ transform: scale(1) translateX(0); }
+}
+
+@keyframes scaleR{
+ from {
+    transform: rotateY(50deg)  scale3d(.9, 1, .8) translateX(-30em) translateY(5em);
+    opacity:0.3;
+  }
+ to {
+    transform: rotateY(0deg)  scale3d(1, 1, 1) translateX(0em) translateY(0em);
+    opacity:1;
+ } 
+}
+
+@keyframes slideRight {
+  from{ transform: translateX(-20em); }
+  to{ transform: translateX(0); }
+}
+
+/* =========RIGHT CLICK========= */
+
+@keyframes slideInLeft {
+   from{ transform: scale(0.8) translateX(20em); }
+   to{ transform: scale(1) translateX(0); }
+}
+
+@keyframes scaleL{
+from {
+    transform: rotateY(-50deg) scale3d(.9, 1, .8) translateX(30em) translateY(5em);
+    opacity:0.3;
+  }
+ to {
+    transform: rotateY(0deg) scale3d(1, 1, 1) translateX(0em) translateY(0);
+    opacity:1;
+ } 
+}
+
+ @keyframes slideLeft{
+  from{ transform: translateX(20em); }
+  to{ transform: translateX(0); }
+}
+
+/*====================================================================== 
+           PORTRAIT MODE 
+=======================================================================*/
+@media only screen and (orientation: portrait){
+     
+/* ========================TOP CLICK========================= */
+    @keyframes slideInRight {
+      from{ transform: translate3d(0, -6vh, -100vw); }
+      to{ transform: translate3d(0, 0, 0);}
+    }
+
+    @keyframes scaleR{
+      from { transform: translate3d(0, -50vh, 500vw); }
+      to { transform: translate3d(0, 0, 0); } 
+      }
+
+    @keyframes slideRight {
+      from{ transform: translate3d(0, -40vh, -100vw);  }
+      to{ transform: translate3d(0, 0, 0); }
+    }
+
+/* ==============================BOTTOM ON CLICK============================= */ 
+    @keyframes slideInLeft {
+      from{ transform: translate3d(0, 40vh, -100vw);  }
+      to{ transform: translate3d(0, 0, 0); }
+    }
+    /**/
+    @keyframes scaleL{
+      from {  transform: translate3d(0, 100vh, 100vh); }
+      to { transform: translate3d(0, 0, 0); } 
+    }
+    
+    @keyframes slideLeft{
+      from{ transform: translate3d(35vw, 15vh, -100vw) scale3d(0, 0, .8); }
+      to{ transform: translate3d(0, 0, 0) scale3d(1,1,1); }    }
+  
+}
+

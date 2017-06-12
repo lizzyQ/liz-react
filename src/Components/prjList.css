@@ -1,0 +1,97 @@
+/*====================================================================== 
+           PORTRAIT MODE => colume
+=======================================================================*/
+#listColume{
+    width:100vw;
+    height:95vh;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,.85);
+}
+#listColume > #listBox {
+    background: #001;
+    width:80%;
+    height:90%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    padding: 1.5em 0;
+    margin: 2em auto;
+}
+#listColume > #listBox #panel{
+    padding-left:.5em;
+    color: lightskyblue;
+    border-bottom: 1px solid lightblue;
+}
+#listColume > #listBox #panel > strong{
+   margin-right:30%;
+   font-size: 1.3em;
+   opacity: .5;
+   color:lightcoral;
+   cursor: pointer; 
+}
+#listColume > #listBox #panel > strong:hover {
+    opacity: 1;
+}
+#listColume > #listBox ul{
+    margin-top:1.5em;
+    list-style: none;
+    line-height: 1.8em;
+}
+#listColume > #listBox ul li{
+     padding-left:4em; 
+     cursor: pointer;
+}
+#listColume > #listBox ul li:hover{
+    background: rgb(45,62,80);
+}
+
+/*====================================================================== 
+           LANDSCAPE MODE => colume
+=======================================================================*/
+#listRow{
+    width:100vw;
+    height:90vh;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,.75);
+}
+#listRow > #listBox {
+    background: #001;
+    width:50%;
+    height:88%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    padding: 1.5em 0;
+    margin: 2em auto;
+}
+#listRow > #listBox #panel{
+    padding-left:.5em;
+    color: lightskyblue;
+    border-bottom: 1px solid lightblue;
+}
+#listRow > #listBox #panel > strong{
+   margin-right:30%;
+   font-size: 1.3em;
+   opacity: .5;
+   color:lightcoral;
+   cursor: pointer; 
+}
+#listRow > #listBox #panel > strong:hover {
+    opacity: 1;
+}
+#listRow > #listBox ul{
+    margin-top:1.5em;
+    list-style: none;
+    line-height: 1.8em;
+}
+#listRow > #listBox ul li{
+     padding-left:4em; 
+     cursor: pointer;
+}
+#listRow > #listBox ul li:hover{
+    background: rgb(45,62,80);
+}

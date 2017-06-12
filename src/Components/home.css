@@ -1,0 +1,124 @@
+/*====================================================================== 
+           PORTRAIT MODE => colume
+=======================================================================*/
+/*If it's in portrait, it always be called when rendering the whole thing*/
+
+#homeColume #homeDisplay {
+  text-align: center;
+  color: rgb(3,180,238);
+}
+#homeColume #slogan { 
+  letter-spacing: .3em;
+  margin-top:8%;
+}
+#homeColume #homeTitle {
+  font-size: 3em;
+  letter-spacing: .5em;
+  margin:1.5em auto;
+  color: #ebffff;
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 
+               0 0px 15px #fff, 
+               0 0 10px #38eeff, 
+               0 0 50px #38eeff;
+}
+#homeColume #homeTitle > span{
+ font-size: 1.3em;
+ color:rgb(3,180,238);
+ text-shadow: none;
+}
+
+#homeColume #homeIntro {
+  margin: 3em 1.5em 0 1.5em;
+  padding: .5em;
+  background: rgba(1, 54, 72, .6);
+  border:solid 1px rgb(4,110,110);
+  border-radius:2px; 
+  color:rgba(2,178,233, .7);
+  font-size: .9em;
+  line-height: 1.5em;
+}
+#homeColume #homeIntro a,
+#homeColume #homeIntro a:hover,
+#homeColume #homeIntro a:active{ 
+  color:rgb(173,213,249);
+  text-decoration: none;
+}
+#homeColume #tagList {
+  list-style:none;
+  color:rgb(226,212,142);
+  margin-top:3em; 
+}
+#homeColume #tagList li{
+    width:5em;
+    height:5em;
+    text-align: center;
+    padding:2em .1em 0 .1em; 
+    float:left;
+    margin: 1em 0 1em 1em;
+    background: url(./Images/hexagon.svg) no-repeat top left;
+    background-size: 100% 100%;
+}
+#homeColume #tagList li:nth-child(3){
+    padding:1.2em .1em 0 .1em;
+}
+#homeColume #tagList li::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*====================================================================== 
+           LANDSCAPE MODE 
+=======================================================================*/
+#homeRow{
+    display: flex;
+}
+#homeRow #homeDisplay {
+  text-align: center;
+  color: rgb(3,180,238);
+}
+#homeRow #slogan { 
+  letter-spacing: .3em;
+  margin-top:1em;
+}
+#homeRow #homeTitle {
+  font-size: 3em;
+  letter-spacing: .5em;
+  margin:1.1em auto;
+  color: #ebffff;
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 
+               0 0px 15px #fff, 
+               0 0 10px #38eeff, 
+               0 0 50px #38eeff;
+}
+#homeRow #homeTitle > span{
+ font-size: 1.3em;
+ color:rgb(3,180,238);
+ text-shadow: none;
+}
+
+#homeRow #homeIntro {
+  margin: 2em 1.5em;
+  padding: .5em;
+  background: rgba(1, 54, 72, .6);
+  border:solid 1px rgb(4,110,110);
+  border-radius:2px; 
+  color:rgba(2,178,233, .7);
+  font-size: .9em;
+  line-height: 1.5em;
+}
+#homeRow #homeIntro a,
+#homeRow #homeIntro a:hover,
+#homeRow #homeIntro a:active{ 
+  color:rgb(173,213,249);
+  text-decoration: none;
+}
+#homeRow #tagList {
+  list-style:none;
+  list-style-position: inside;
+  line-height: 2em;
+  color: rgb(226,212,142);
+  font-size: .9em;
+  margin:40% 0 0 15%;
+  padding-left:15%;
+  background: url(./Images/ruler.svg) repeat-y top left;
+}

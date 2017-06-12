@@ -1,0 +1,176 @@
+/*====================================================================== 
+           PORTRAIT MODE => TABLE LIKE NAV
+=======================================================================*/
+
+    #prttNav{
+        height: 12vh;
+        border-top:4px solid orange;
+     }
+    #prttNav .sns-group,
+    #prttNav .nav-group{
+        display: flex;
+        height: 50%;
+        justify-content: space-around;
+    }
+    #prttNav .nav-group{
+        border-top:1px solid orange;
+        background: rgba(2,178,233, .1);   
+    }  
+    #prttNav a {
+        display: inline-block;
+        align-self: center;
+        position: relative;
+    } 
+    #prttNav .sns-group a svg{
+         fill:orange;
+         opacity: .8;
+        width:1.3em;
+         height:1.3em;
+    } 
+    #prttNav .nav-group a svg{
+         fill:#9effff;
+         width:1.5em;
+         height:1.5em;
+    }
+    #prttNav .sns-group a::before{
+       content: "";
+       position: absolute;
+       top:-.5em;
+       left:-.6em;
+       width:70%;
+       height:100%;
+       border-top: 1px solid orange;
+       border-left: 1px solid orange;
+       transform: skewX(-35deg);
+    }
+    #prttNav .sns-group a::after{
+       content: "";
+       position: absolute;
+       top:.2em;
+       right:-.6em;
+       width:70%;
+       height:100%;
+       border-bottom: 1px solid orange;
+       border-right: 1px solid orange;
+       transform: skewX(-35deg);
+    }
+   
+/*====================================================================== 
+           LANDSCAPE MODE 
+=======================================================================*/
+
+    #lndscpNav {
+        height: 8vh;
+        display: flex;
+    }
+    #lndscpNav > .sns-group,
+    #lndscpNav > .nav-group {
+        height:2.5em;
+        flex:2;
+        border-top:2px solid orange;
+        position: relative;
+    }
+    
+    #lndscpNav > .sns-group{
+        padding-left:.5em;
+        box-shadow: -4px -4px 5px rgb(67,49,18);
+    }
+    #lndscpNav > .sns-group:after{
+        content:"";
+        position: absolute;
+        top:-.12em;
+        right:-2.4em;
+        width:35px;
+        height:58%;
+        border-left: 8px solid orange;
+        border-right: 20px double orange;
+        box-shadow: 4px 0 5px rgb(67,49,18),
+                    -4px 0 5px rgb(67,49,18);
+        transform: skewX(40deg);
+    }
+    #lndscpNav > .nav-group{
+        text-align: right;
+        padding-right:.5em;
+        box-shadow: 4px -4px 5px rgb(67,49,18);
+    }
+     #lndscpNav > .nav-group:after{
+        content:"";
+        position: absolute;
+        top:-.12em;
+        left:-2.4em;
+        width:35px;
+        height:58%;
+        border-left: 8px solid orange;
+        border-right: 20px double orange;
+        box-shadow: 4px 0 5px rgb(67,49,18),
+                    -4px 0 5px rgb(67,49,18);
+        transform: skewX(-40deg);
+    }
+
+    #lndscpNav .activeM {
+        flex: 1;
+        color: rgb(226,212,142);
+        font-size: 1.2em;
+        z-index: 9;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 5px #e3e98e;
+    }
+    /*
+     position: relative;
+    #lndscpNav .activeM::before {
+        content: "";
+        position: absolute;
+        top: 1.1em;
+        left: 2.5em;
+        width: 50%;
+        height:1px;
+        border:1px solid orange;
+        box-shadow: 0 -1px 5px rgb(67,49,18);
+    }
+    #lndscpNav .activeM::after {
+        content: "";
+        position: absolute;
+        top: 1.1em;
+        right: 2.5em;
+        width: 50%;
+        height:1px;
+        border:1px solid orange;
+        box-shadow: 0 -4px 6px rgb(67,49,18);
+    }*/
+    #lndscpNav .menu {
+            display: inline-block;
+            width: 3em;
+            height: .8em;
+            cursor: pointer; 
+            margin: .6em .4em;
+            position: relative;
+    }
+    
+    #lndscpNav .menu:after {
+        content:attr(title);
+        position: absolute;
+        top:-1.8em;
+        right:.2em;
+        height:100%;
+        width:100%;
+        color:orange;
+        display: none;
+    }
+     #lndscpNav .menu:hover::after{
+         display: block;
+     }
+    #lndscpNav .menu.left {
+            background-color: rgb(1,41,94); 
+            transform: skewX(25deg); 
+    }
+    #lndscpNav .menu.left:hover {
+            background-color: rgb(53,190,199); 
+    }
+    #lndscpNav .menu.right {
+            background-color: rgb(226,212,142);
+            transform: skewX(-25deg);
+    }
+    #lndscpNav .menu.right:hover {
+            background-color: rgb(255,235,199); 
+    }

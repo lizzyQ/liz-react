@@ -1,0 +1,291 @@
+{
+    "projects" :[
+             {
+                 "id": "pj1",
+                 "title": "Roguelike Dugeon Game",
+                 "tags": ["React", "Canvas","imageLoader","scrolling tilemap","HTML5","CSS3"],
+                 "img": "dugeon.png",
+                 "codepen": "https://codepen.io/lizzyQ/full/JWVQXy/",
+                 "github": "https://github.com/lizzyQ/Roguelike-Dungeon-Game",
+                 "description": [
+                     "The last react project from freeCodeCamp. I learned a lot about how to interact with tilemap,",
+                     "spirte, and generate rooms, turnels, as well as",
+                     "visualize my nested array on HTML5 canvas. For a detaied description please visit my github."
+                     ]
+             },
+             {
+                 "id": "pj2",
+                 "title": "Game of Life",
+                 "tags": ["React", "Canvas","HTML5","CSS3"],
+                 "img": "gameofLife.png",
+                 "codepen": "https://codepen.io/lizzyQ/full/RpOaWg",
+                 "github": "https://github.com/lizzyQ/Game-of-Life",
+                 "description": [
+                    "John Conway's Game of Life is a self-displayed game. ",
+                    "When you enter the page, the cells will start life cycle by certain rules automatically. ",
+                    " Some of the cells die, some of the cells just start a new life. ", 
+                    "At any time, You may add/delete cells by click on the board, Or pause it, ",
+                    "clear the board and restart it. It also shows how many generations have gone by."
+                    ]
+             },
+             {
+                 "id": "pj3",
+                 "title": "Recipe Box",
+                 "tags": ["React Bootstrap Component", "HTML5", "Local Storage","CSS3"],
+                 "img": "recipe.png",
+                 "codepen": "https://codepen.io/lizzyQ/full/vxKLvz",
+                 "github": "https://github.com/lizzyQ/Recipe-Box",
+                 "description": [
+                     "In recipe box, you can add, edit, and delete recipes. ",
+                     "It will show you a list of recipes when you first open it, click a bar to view the detailed recipe. ",
+                     "All new recipes are saved in browser's local storage. ",
+                     "Refresh the page will not change any stored data."
+                 ]
+
+             },
+             {
+                 "id": "pj4",
+                 "title": "Camper Leaderboard",
+                 "tags": ["React", "Javascript", "ajax", "jQuery","HTML5","CSS3"],
+                 "img": "camper.png",
+                 "codepen": "https://codepen.io/lizzyQ/full/XMdRVB",
+                 "github": "https://github.com/lizzyQ/Camper-Leaderboard",
+                 "description": [
+                     "Camper Leaderboard is an ordered list of Free Code Camp campers. ",
+                     "Users can view who've earned the most brownie points in the past 30 days, ",
+                     "how many brownie points they've earned in the past 30 days, ",
+                     "and how many they've earned total. ",
+                     "User can toggle between sorting the list by how many brownie points they've earned ",
+                     "in the past 30 days and by how many brownie points they've earned total."
+                     ]
+             },
+             {
+                 "id": "pj5",
+                 "title": "Git-hub flavoured Markdown Preview",
+                 "tags": ["React", "HTML5", "CSS3"],
+                 "img": "markDown.png",
+                 "codepen": "https://codepen.io/lizzyQ/full/yMeEov",
+                 "github": "https://github.com/lizzyQ/Markdown-Previewer",
+                 "description": [
+                     "Markdown Preview is a useful tool which coded in React. ",
+                     "By typing gitHub-flavored Markdown into the left text area, ",
+                     "the preview window will show the decoded output simultaneously."
+                 ]
+             },
+             {
+                 "id": "pj6",
+                 "title": "Simon Game",
+                 "tags": ["Javascript","HTML5","CSS3"],
+                 "img": "simon.png",
+                 "codepen": "https://codepen.io/lizzyQ/full/NdVaab",
+                 "github": "https://github.com/lizzyQ/Simon-Game",
+                 "description": [
+                     "Simon is a game of memory skill. ",
+                     "User will be presented with a random series of button presses. ",
+                     "Click the buttons in right order will take user to next step. ",
+                     "If wrong button clicked, the warning will show on the top, and the last series of button will show again. ",
+                     "If wrong button clicked in strict mode, the game will restart from step 1. ",
+                     "The count window shows the current steps, press start in middle of the game will initialize the game, ",
+                     "and restarts at a new series of button presses. user wins the game by getting a series of 20 steps correct. "
+                 ]
+             },
+             {
+                 "id": "pj7",
+                 "title": "Tic Tac Toe",
+                 "tags": ["Javascript", "MiniMax Algorithm", "HTML5", "CSS3"],
+                 "img": "ticTacToe.png",
+                 "codepen": "https://codepen.io/lizzyQ/full/EZdVBJ",
+                 "github": "https://github.com/lizzyQ/Tic-Tac-Toe",
+                 "description": [
+                     "User can play a game of Tic Tac Toe with the computer. ",
+                     "It will not be very easy to beat the computer since the AI has been optimized. ",
+                     "The game will reset as soon as it's over."]
+             },
+             {
+                 "id": "pj8",
+                 "title": "Pomodoro Clock",
+                 "tags": ["Native Javascript","HTML5","CSS3"],
+                 "img": "pomodoro.png",
+                 "codepen": "https://codepen.io/lizzyQ/full/ygjVBo",
+                 "github": "https://github.com/lizzyQ/Pomodoro-Clock",
+                 "description": [
+                     "Pomodoro Clock is a time management tool. ",
+                     "It breaks down work into intervals, traditionally 25 minutes in length, ",
+                     "seperated by short breaks. Those intervals are named pomodoros. ",
+                     "Users can reset and customize the length of each pomodoro. Start a pomodoro, ",
+                     "and the timer will go off once the setting minutes has elapsed."
+                     ]
+             },
+             {
+                 "id": "pj9",
+                 "title": "Calculator",
+                 "tags": ["Native Javascript", "HTML5", "CSS3"],
+                 "img": "calculator.png",
+                 "codepen": "https://codepen.io/lizzyQ/full/qRVXGb",
+                 "github": "https://github.com/lizzyQ/Calculator",
+                 "description": [
+                     "Javascript Calculator can do simple math, As well as chaining mathematical operations. ",
+                     "It can be cleaned by click the “C” button. After click the equal button, the operation is done. ",
+                     "It will not memorize the result number and carry it onto the next operation."
+                     ]
+             },
+             {
+                 "id": "pj10",
+                 "title": "Twitch streamer ",
+                 "tags": ["Javascript", "ajax", "jQuery","HTML5","CSS3"],
+                 "img": "twitch.png",
+                 "codepen": "https://codepen.io/lizzyQ/full/GrRRrx",
+                 "github": "https://github.com/lizzyQ/Twitch-Streamer",
+                 "description": [
+                     "Twitch Streamer is a page of list of assorted Twitch user. ",
+                     "The listed information of a streamer includes avatar, streamer name, current streaming status. ",
+                     "If it’s streaming, the streaming title will be seen, and if it’s a closed account, the notification will be seen. ",
+                     "By click on a bar, it will take the user directly to the streamer’s channel in Twitch.tv."
+                     ]
+             },
+             {
+                 "id": "pj11",
+                 "title": "Wikipedia viewer",
+                 "tags": ["Javascript", "ajax", "jQuery","HTML5","CSS3"],
+                 "img": "wikiViewer.png",
+                 "codepen": "https://codepen.io/lizzyQ/full/vgBjoO",
+                 "github": "https://github.com/lizzyQ/Wikipedia-Viewer",
+                 "description": [
+                     "Wikipedia Viewer is a search page that show summaries of Wikipedia articles. ",
+                     "The user can also click the button on top to see a random Wikipedia entry."
+                     ]
+             },
+             {
+                 "id": "pj12",
+                 "title": "Local Weather App",
+                 "tags": ["Javascript", "ajax", "jQuery", "Bootstrap", "HTML","CSS"],
+                 "img": "weather.png",
+                 "codepen": "https://codepen.io/lizzyQ/full/qqeLWM",
+                 "github": "https://github.com/lizzyQ/Local-Weather-App-",
+                 "description": [
+                     "Local Weather App shows the weather in user’s current location. ",
+                     "The icon and background color will change depending on the weather or the temperature. ",
+                     "You can toggle between Fahrenheit and Celsius by clicking the acronym(F/C)."
+                     ]
+             },
+             {
+                 "id": "pj13",
+                 "title": "Random quote machine",
+                 "tags": ["Javascript", "ajax", "jQuery", "HTML5", "CSS3"],
+                 "img": "quote.png",
+                 "codepen": "https://codepen.io/lizzyQ/full/bBXWgM",
+                 "github": "https://github.com/lizzyQ/Random-Quote-Machine",
+                 "description": [
+                     "Random Quote Machine shows a new random quote when click. ",
+                     "You can also tweet out the quote."
+                     ]
+             },
+             {
+                 "id": "pj14",
+                 "title": "Tribute Page",
+                 "tags": ["jQuery","Bootstrap","HTML5","CSS3"],
+                 "img": "tribute.png",
+                 "codepen": "https://codepen.io/lizzyQ/full/eBwJRQ",
+                 "github": "https://github.com/lizzyQ/Tribute-Page",
+                 "description": [
+                     "A single introduction page with images and links to external website with further information on the topic."
+                     ]
+             },
+             {
+                 "id": "pj15",
+                 "title": "Boostrap Portofolio Template",
+                 "tags": ["jQuery","Bootstrap","HTML","CSS"],
+                 "img": "bootsrtapPortofolio.png",
+                 "codepen": "https://codepen.io/lizzyQ/full/RozeeM",
+                 "github": "https://github.com/lizzyQ/Responsive-Portfolio-Webpage",
+                 "description": [
+                     "A bonfire challenge project for FreeCodeCamp. ",
+                     "Access all of the content just by scrolling. ",
+                     "Jump to different section by clicking buttons in the navigation. ",
+                     "Preview different projects and go to my social media pages by click the icons."
+                 ]
+             },
+             {
+                 "id": "pj16",
+                 "title": "Chinese go",
+                 "tags": ["Design","HTML5","CSS3"],
+                 "img": "chinese.png",
+                 "codepen": "https://lizzyq.github.io/chinesego/",
+                 "github": "https://github.com/lizzyQ/chinesego",
+                 "description": [
+                     "Play around with code. ",
+                     "The idea behind Chinese Go is providing an open platform for Chinese language learners. ",
+                     "They can easily access their free studying source and communicate with each other. ",
+                     "The landing page acts as a navigation which create a new and playful experience."
+                ]
+             },
+             {
+                 "id": "pj17",
+                 "title": "Fine line",
+                 "tags": ["Bootstrap","HTML5","CSS3"],
+                 "img": "fine.png",
+                 "codepen": null,
+                 "github": null,
+                 "description": "Bootstrap template made with as simple as possible kinda manner."
+             },
+             {
+                 "id": "pj18",
+                 "title": "Old protofolio 2012",
+                 "tags": ["HTML","CSS"],
+                 "img": "oldP.png",
+                 "codepen": null,
+                 "github": null,
+                 "description": [
+                     "The project helped me to get rid of the habit of relying on PSD file. ",
+                     "I desinged this one directly from markup Which saves a lot of time and the design is more flexible. ",
+                     "It is a mock-up of an award winning website, During the process, I learned more about responsive designing."
+                ]
+             },
+             {
+                 "id": "pj19",
+                 "title": "Landing page design",
+                 "tags": ["Photoshop","HTML","CSS"],
+                 "img": "design.png",
+                 "codepen": null,
+                 "github": null,
+                 "description": [
+                     "1. Empathy For Life is a no-kill dog shelter in Goyang Korea. ",
+                     "I volunteered to design their website.",
+                     "2. Hanmi is an agency that introducing the plastic surgery clinics in S.Korea to Chinese tourists. " ,
+                     "The design I created in 2010 housed plenty of information in the landing page."
+                     ]
+             },
+             {
+                 "id": "pj20",
+                 "title": "Involving and discussing the political activity",
+                 "tags": ["Photoshop","HTML","CSS"],
+                 "img": "activity.png",
+                 "codepen": null,
+                 "github": null,
+                 "description": [
+                     "Involving and Discussing The Political Activity was the initial and paramount project I worked on when I was working as the web designer in a web agency in Korea. ",
+                     "The site was used to edit and send out text messages as well as images and videos. ",
+                     "It’s function oriented also mobile oriented."
+                 ]
+             },
+             {
+                 "id": "pj21",
+                 "title": "collection of coding work",
+                 "tags": ["Photoshop","HTML","CSS"],
+                 "img": "collection.png",
+                 "codepen": null,
+                 "github": null,
+                 "description": [
+                     "1. 202 is a construction interior company. The site was static and used flash for sliders in the landing page. ",
+                     "I designed the site in PSD then transfer the PSD file to HTML/CSS.",
+                     "2. For Korean Presbyterian Church of Saipan, I did the PSD to HTML/CSS transformation.",
+                     "  You may visit here:  http://www.spnchurch.com/ ",
+                     "3. Artlalla is a platform which allows the art students to sell their artworks through the site. ",
+                     "  You may visit here:  http://www.artrella.com/ ",
+                     "4. SMI stands for Standard Management Ins, It’s the organization that registering ISO certificates. ",
+                     "  You may visit here:  http://www.ikmc4u.com/ "
+                    ]
+             }
+               ]
+    
+}

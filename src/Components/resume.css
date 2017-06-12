@@ -1,0 +1,162 @@
+/*====================================================================== 
+           PORTRAIT MODE => colume
+=======================================================================*/
+
+#resumeColume #avatar{
+  margin: 2em 1em;
+  height:15em;
+  background: url(./Images/me.jpg) no-repeat right center;
+  background-position: 90% 100%;
+  background-size: contain;
+  padding:2% 0 0 6%; 
+}
+#resumeColume #avatar h2{
+  margin: 0 auto .5em auto;
+  font-size: 2.5em;
+  color:#ebffff;
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 
+               0 0px 15px #fff, 
+               0 0 10px #38eeff, 
+               0 0 50px #38eeff;
+}
+#resumeColume #sns {
+  width:50%;
+}
+#resumeColume #sns > a {
+  cursor:pointer;
+  padding: .5em;
+}
+/*
+#resumeColume #sns > a::before {
+  content: "⌌";
+  position: absolute;
+  top:-.7em;
+  left:-.2em;
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.5);
+  color:#9effff;
+} 
+#resumeColume #sns > a::after {
+  content: "⌏";
+  position: absolute;
+  bottom:-.5em;
+  right:-.1em;
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.5);
+  color:#9effff;
+} */
+#resumeColume #sns a svg{
+  fill:#9effff;
+  width:1.4em;
+  height:1.4em;
+  vertical-align: middle;
+}
+#resumeColume #about{
+  margin-top:1.5em;
+  color:rgb(3,180,238);  
+}
+#resumeColume #exp {
+  color:rgb(3,180,238);
+  border: 3px solid rgba(2,178,233, .7);
+  margin:1.5em;
+  padding: .3em 2em 0 2em;  
+  position: relative;
+}
+#resumeColume #exp::before {
+  content: " ";
+  position: absolute;
+  width:60%;
+  height:3em;
+  top:-4px;
+  right:-4px;
+  background: rgb(5,13,29);
+  border-bottom:3px solid rgba(2,178,233, .7);
+  border-left:3px solid rgba(2,178,233, .7);
+}
+#resumeColume #exp dl{
+  line-height: 1.3em;
+  margin:1.8em 0 3em 0;
+}
+#resumeColume #exp dt {
+ color: #9effff;
+} 
+
+#resumeColume #exp dt > i{
+  float: right;
+  color:rgb(226,212,142);
+}
+#resumeColume #exp dt > i::after{
+  display:table;
+  content: " ";
+  clear:both;
+}
+/*====================================================================== 
+           LANDSCAPE MODE 
+=======================================================================*/
+
+#resumeRow {
+  display: flex;
+}
+#resumeRow #avatar{
+  margin:1.5em 0 1.5em 1.5em;
+  background: url(./Images/me.jpg) no-repeat left top;
+  background-position: 0% 0%;
+  background-size: contain;
+  padding-top: 92%;
+}
+
+#resumeRow #avatar h2{
+  margin:.5em 0;
+  text-align: center;
+  font-size: 2.5em;
+  color:#ebffff;
+  text-shadow: 2px 2px 1px rgba(0,0,0,0.3), 
+               0 0px 15px #fff, 
+               0 0 10px #38eeff, 
+               0 0 50px #38eeff;
+}
+#resumeRow #sns {
+  width:100%;
+  display: inline-flex;
+  justify-content: space-around;
+}
+#resumeRow #sns > a {
+  padding: .5em; 
+  background: url(./Images/hexagon.svg) no-repeat top left;
+  background-size: contain;
+  cursor: pointer;
+}
+#resumeRow #sns a svg{
+  fill:#9effff;
+  width:1em;
+  height:1em;
+}
+#resumeRow #sns a:hover svg{
+  fill:rgb(3,180,238);
+}
+#resumeRow #about{
+  margin-top:1.5em;
+  line-height: 1.5em;
+  color:rgb(3,180,238);  
+}
+#resumeRow #exp {
+  color:rgb(3,180,238);
+  margin:1.5em 0 1em 1.5em;
+
+}
+#resumeRow #exp dl{
+  line-height: 1.3em;
+  margin:1.8em 0 3em 0;
+}
+#resumeRow #exp dt {
+ color: #9effff;
+} 
+
+#resumeRow #exp dt > i{
+  float: right;
+  color:rgb(226,212,142);
+}
+#resumeRow #exp dt > i::after{
+  display:table;
+  content: " ";
+  clear:both;
+}
+ 
